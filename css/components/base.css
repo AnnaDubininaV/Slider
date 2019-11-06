@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.main {
+    height: 100%;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #504848;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header {
+    padding: 30px 0;
+    text-align: center;
+    ;
+}
+
+a,
+.link {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+    color: #3363e6;
+}
+
+.a.is-active {
+    color: #3363e6;
+    text-decoration: underline;
+}
+
+img {
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+p,
+figure {
+    margin: 0;
+}
+
+.figure {
+    margin-bottom: 0;
+}
+
+*+p,
+*+figure {
+    margin-top: 0;
+}
+
+ul>li>ol,
+ul>li>ul,
+ol>li>ol,
+ol>li>ul {
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
+    margin-top: 20px;
+}
+
+.slick-slider img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.glide img {
+    height: 100%;
+    object-fit: cover;
+}
